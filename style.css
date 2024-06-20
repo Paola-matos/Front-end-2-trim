@@ -2,5 +2,14 @@
   --branco-principal:#FFFFFF;
   --cinza-segundario:#C0C0C0;
   --botao-azul:#167BF7;
-  --cor-de-fundo:
+  --cor-de-fundo:#F0D;
+}
+
+body {
+   background-color: var(--cor-de-fundo);
+}
+
+*{
+    margin: 0;
+    padding:0;
 }
