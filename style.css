@@ -36,7 +36,7 @@ body {
 .container__botão{
   background-color: var(--botao-azul);
   border-radius: 5px;
-  padding: 1em;
+  padding: 1emsegundario__imagem;
   color: var(--branco-principal);
   display:block;
   text-decoration: none;
@@ -81,5 +81,16 @@ body {
   font-weight: 700;
   font-size: 48px;
   color: var(--branco-principal);
-  margin-bottom:0.5em;
+  margin-bottom:0.1em;
 }
+
+.descrição__texto {
+  color: var(--cinza-segundario)
+}
+
+.segundario__botão {
+   display: inline-block;
+   margin-top: 1em;
+}
+
+
