@@ -1,7 +1,7 @@
 :root {
   --branco-principal:#FFFFFF;
   --cinza-segundario:#C0C0C0;
-  --botao-azul:#167BF7;
+  --botao-azul:#4bf716;
   --cor-de-fundo:rgb(8, 9, 10);
   --fonte-principal:'inter';
 }
@@ -20,7 +20,7 @@ body {
 }
 
 .principal{
-    background-image: url("img/Background.png");
+    background-image: url("img/Notebook.png");
     background-repeat: no-repeat;
     background-size: contain;
     align-items: center;
@@ -35,7 +35,7 @@ body {
 
 .container__botao{
   background-color: var(--botao-azul);
-  border-radius: 5px;
+  border-radius: 16px;
   padding: 1em;
   color: var(--branco-principal);
   display:block;
@@ -97,3 +97,61 @@ body {
   padding: 2em;
 }
 
+
+.dispositivos__lista {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin: 5em 0;
+}
+
+.dispositivos {
+  text-align: center;
+}
+
+.dispositivos__titulo {
+  font-size: 48px;
+  color: var(--branco-principal);
+}
+
+.lista__item {
+  font-size: 32px;
+  color: var(--branco-principal);
+}
+
+.rodape {
+  text-align: center;
+  margin: 5em 3em;
+}
+
+.rodape__lista {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin-top: 1em;
+}
+
+.lista__link a{
+  text-decoration: none;
+  color: var(--branco-principal);
+  margin-left: 1em;
+}
+
+.rodape__texto {
+  margin: 1em 0;
+  color: var(--cinza-secundario);
+  font-size: 14px;
+}
+
+.lista__link a:hover {
+    color: var(--botao-azul);
+}
+
+.lista__link a:active {
+    color: purple;
+}
+
+.container__botao:hover {
+    background-color: var(--botao-azul-efeito);
+    color: var(--cor-de-fundo);
+}
